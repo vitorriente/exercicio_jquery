@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <button type="button" id="adicionar-tarefa">Adicionar Tarefa +</button>
+    </header>
+    <form>
+        <h2>Adicionar Tarefa</h2>
+        <input type="text" id="texto" required placeholder="Digite sua tarefa">
+        <input type="submit" id="enviar" value="Adicionar">
+        <button type="reset" id="cancelar">Cancelar</button> 
+    </form>
+    <div id="rafinha">
+        <ul id="lista-tarefas"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+    <footer>
+        <p>&copy; 2024 Lista de Tarefas. Todos os direitos reservados Vitor Riente.</p>
+    </footer>
+</body>
+</html>

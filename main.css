@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, h1 {
+    text-align:center;
+    padding: 20px 0;
+    background-color: rgb(46, 45, 45);
+    font-size: 150%;
+    font-style:italic;
+    color: white;
+}
+
+#adicionar-tarefa {
+    background-color: rgb(181, 181, 12);
+    padding: 8px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#adicionar-tarefa:hover {
+    background-color: yellow;
+}
+
+form {
+    text-align: center;
+    padding-top: 50px;
+    display: none;
+}
+
+h2 {
+    margin-bottom: 16px;
+    font-style:italic;
+}
+
+#texto {
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+#enviar {
+    background-color: rgb(17, 175, 17);
+    padding: 8px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#enviar:hover {
+    background-color: rgb(2, 255, 2);
+}
+
+#cancelar {
+    background-color: rgb(182, 12, 12);
+    padding: 8px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#cancelar:hover {
+    background-color: red;
+}
+
+footer {
+    padding-top: 5%;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+p {
+    background-color: rgb(46, 45, 45);
+    padding: 3%;
+    font-size: 90%;
+}
+
+#lista-tarefas {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#lista-tarefas li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 1rem;;
+    max-width:20%;
+}
+
+#rafinha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+html {
+    background-color: rgb(198, 192, 192);
+}
+
+#lista-tarefas li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 1rem;
+    max-width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excluir-tarefa {
+    background-color: rgb(182, 12, 12);
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.excluir-tarefa:hover {
+    background-color: red;
+}
+
+/* Estilo para o texto riscado */
+.completa {
+    text-decoration: line-through;
+    color: grey; 
+}
+
+#lista-tarefas li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 1rem;
+    max-width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excluir-tarefa {
+    background-color: rgb(182, 12, 12);
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.excluir-tarefa:hover {
+    background-color: red;
+}
